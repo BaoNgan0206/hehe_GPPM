@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Owner;
+    src: url(../fonts/fontOwner.otf);
+}
+body{
+    font-family: Owner;
+}
+.menu > a{
+    text-decoration: none;
+    font-size: 48px;
+    color: #C08EF5;
+}
+.menu > a > span{
+    color: #7F7F7F;
+}
+#googleMap{
+    width: 100%;
+    height: 400px;
+}
