@@ -11,14 +11,34 @@
 body{
     font-family: Owner;
 }
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3D3D3D;
+}
 .menu > a{
+    padding-left: 2%;
+    width: 50%;
     text-decoration: none;
-    font-size: 48px;
+    font-size: 140px;
     color: #C08EF5;
 }
 .menu > a > span{
-    color: #7F7F7F;
+    color: #FFFFFF;
 }
+.showMenu{
+    width: 10%; 
+    margin-right: 5%;
+    padding-top: 5px;
+}
+.showMenu > a{
+    text-decoration: none;
+    font-size: 130px;
+    color: #C08EF5;
+   
+}
+
 #googleMap{
     width: 100%;
     height: 400px;
