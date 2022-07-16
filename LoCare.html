@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="author" content="Võ Phú Phát, Nguyễn Kim Bảo Ngân, Phan Thanh Hải">
         <meta name="keywords" content="Vaccine,Vắc xin,Tìm vaccxin, VaccineFinder">
-        <meta name="viewport" cotent="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/indexStyles.css" rel="stylesheet">
         <link href="css/phone.css" rel="stylesheet" media="screen and (max-width: 590px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,6 +18,94 @@
                     <a href="javascript:;"><i class="fas fa-bars"></i></a>
                 </div>
             </div>
+            <div class ="containt">
+                <div class="img">
+                    <img src="image/cover.jpg"/>
+                </div>
+                <div class="find">
+                    <p>Tìm ngay địa điểm tiêm chủng vaccine gần bạn</p>
+                    <div class="btn btnFind">Tìm ngay</div>
+                </div>
+            </div>
+           
+            <section >
+                <div id="inputAddress">
+                    <div class="title">Nhập nơi ở của bạn</div>
+                    <div class="inputInfo">
+                        <form>
+                            <table>
+                                <tr>
+                                    <td class="inInfo">Tỉnh/Thành phố:</td>
+                                    <td>
+                                        <input type="text" id="ttp" placeholder="Nhập tỉnh/thành phố bạn sinh sống..." />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="inInfo">Quận/Huyện:</td>
+                                    <td>
+                                        <input type="text" id="qh" placeholder="Nhập quận/huyện bạn sinh sống..." />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="inInfo">Phường/Xã:</td>
+                                    <td>
+                                        <input type="text" id="px" placeholder="Nhập phường/xã bạn sinh sống..." />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="inInfo">Địa chỉ chi tiết:</td>
+                                    <td>
+                                        <input type="text" id="dcct" placeholder="Nhập số nhà, tên đường bạn sinh sống..." />
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                        <div class="btn">Xác nhận</div>
+                    </div>
+                </div>
+                <div id="outputResult">
+                    <div class="title">Kết quả</div>
+                    <div class="results">
+                        <div class="result">
+                            <div class ="infoResult">
+                                <div class="name">Trạm Y Tế Phường 7 Quận Gò Vấp</div>
+                                <div class="address">79 Nguyễn Văn Nghi, phường 7, Gò Vấp, TP.HCM</div>
+                                <div class ="status">
+                                    <span class="allow">Vắng người</span> <span class="amount">Còn <span>56</span> thuốc</span>
+                                </div>
+                                
+                            </div>
+                            <div class="btn btnBook">
+                                Đặt lịch tiêm
+                            </div>
+                        </div>
+                        <div class="result">
+                            <div class ="infoResult">
+                                <div class="name">Trạm Y Tế Phường 11 Quận Gò Vấp</div>
+                                <div class="address">637 Quang Trung, phường 11, Gò Vấp, TP.HCM</div>
+                                <div class ="status">
+                                    <span class="allow">Đông người</span> <span class="amount">Còn <span>23</span> thuốc</span>
+                                </div>
+                            </div>
+                            <div class="btn btnBook">
+                                Đặt lịch tiêm
+                            </div>
+                        </div>
+                        <div class="result">
+                            <div class ="infoResult">
+                                <div class="name">Trạm Y Tế Phường 17 Quận Gò Vấp</div>
+                                <div class="address">37 Nguyễn Văn Lượng, phường 17, Gò Vấp, TP.HCM</div>
+                                <div class ="status">
+                                    <span class="disallow">Hết thuốc</span> <span class="amount">Còn <span>0</span> thuốc</span>
+                                </div>
+                            </div>
+                            <div class="btn btnBook">
+                                Đặt lịch tiêm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </header>
     </body>
 </html>
