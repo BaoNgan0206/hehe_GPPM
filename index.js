@@ -35,3 +35,10 @@ function displayBook(){
     book.style.animation = "backInUp";
     book.style.animationDuration = "1s";
 }
+
+function success(){
+    var annouce = document.getElementById("success");
+    annouce.style.display = "block";
+    annouce.style.animation = "bounceIn";
+    annouce.style.animationDuration = "1s";
+}
