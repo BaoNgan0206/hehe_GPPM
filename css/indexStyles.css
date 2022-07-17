@@ -149,7 +149,7 @@ img{
 .find{
     width: 30%;
     height: 100%;
-    background: #C08EF5;
+    background: transparent;
 }
 .containt{
     display: flex;
@@ -209,7 +209,12 @@ div#contactframe a:hover{
 }
 .feedback{
     position: absolute;
-    bottom: 99%;
+    bottom: 95%;
     background-color: transparent !important;
     padding: 0;
+    left: 0;
 }
+.feedback img{
+    width: 100%;
+}
+
