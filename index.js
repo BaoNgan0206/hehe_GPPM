@@ -24,5 +24,6 @@ function confirm(){
         output.style.display = "block";
         output.style.animation = "backInUp";
         output.style.animationDuration = "2s";
+        
     }
 }
