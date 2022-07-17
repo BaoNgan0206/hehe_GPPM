@@ -10,7 +10,7 @@ function display(){
     document.querySelector("body").style.backgroundColor = "white";
     input.style.display = "block";
     input.style.animation = "backInUp";
-    input.style.animationDuration = "2s";
+    input.style.animationDuration = "1s";
 }
 
 function confirm(){
@@ -24,7 +24,14 @@ function confirm(){
         var output = document.getElementById("outputResult");
         output.style.display = "block";
         output.style.animation = "backInUp";
-        output.style.animationDuration = "2s";
-
+        output.style.animationDuration = "1s";
     }
+}
+
+function displayBook(){
+    document.getElementById("outputResult").style.display = "none";
+    var book = document.getElementById("book");
+    book.style.display = "block";
+    book.style.animation = "backInUp";
+    book.style.animationDuration = "1s";
 }
