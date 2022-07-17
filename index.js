@@ -41,5 +41,12 @@ function success(){
     annouce.style.display = "block";
     annouce.style.animation = "bounceIn";
     annouce.style.animationDuration = "1s";
+    randomId();
     
+}
+
+function randomId(){
+    var randNumber = Math.floor(Math.random() * 1000000 + 1);
+    var id = document.getElementById("idTiemChung");
+    id.innerText += ` mã tiêm chủng của bạn là ${randNumber}`;
 }
