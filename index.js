@@ -1,6 +1,7 @@
 function init(){
     document.getElementById("inputAddress").style.display = "none";
     document.getElementById("outputResult").style.display = "none";
+    document.getElementById("book").style.display = "none";
 }
 
 function display(){

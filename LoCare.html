@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>HEHE</title>
+        <script src = "index.js"></script>
         <meta charset="utf-8">
         <meta name="author" content="Võ Phú Phát, Nguyễn Kim Bảo Ngân, Phan Thanh Hải">
         <meta name="keywords" content="Vaccine,Vắc xin,Tìm vaccxin, VaccineFinder">
@@ -10,7 +11,7 @@
         <link href="css/phone.css" rel="stylesheet" media="screen and (max-width: 590px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
+    <body onload = "init()">
         <header>
             <div class="menu">
                 <a href="LoCare.html">Lo<span>Care</span></a>
@@ -25,7 +26,7 @@
                 <div class="find">
                     <div class="findChild">
                         <p>Tìm ngay địa điểm tiêm chủng vaccine gần bạn</p>
-                        <div class="btn btnFind">Tìm ngay</div>
+                        <div onclick = "display()" class="btn btnFind">Tìm ngay</div>
                     </div>
                 </div>
             </div>
@@ -62,7 +63,7 @@
                             </tr>
                         </table>
                     </form>
-                    <div class="btn">Xác nhận</div>
+                    <div onclick = "confirm()" class="btn">Xác nhận</div>
                 </div>
             </div>
             <div id="outputResult">
