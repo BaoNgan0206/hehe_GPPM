@@ -5,7 +5,11 @@ function init(){
 }
 
 function display(){
-    document.getElementById("inputAddress").style.display = "block";
+    document.querySelector(".containt").style.display = "none";
+    var input = document.getElementById("inputAddress");
+    input.style.display = "block";
+    input.style.animation = "backInUp";
+    input.style.animationDuration = "2s";
 }
 
 function confirm(){
@@ -15,6 +19,10 @@ function confirm(){
     var dcct = document.getElementById("dcct");
     if(ttp.value != "" && qh.ivalue != "" && px.value != "" && dcct.value != "")
     {
-        document.getElementById("outputResult").style.display = "block";
+        document.getElementById("inputAddress").style.display = "none";
+        var output = document.getElementById("outputResult");
+        output.style.display = "block";
+        output.style.animation = "backInUp";
+        output.style.animationDuration = "2s";
     }
 }
