@@ -10,7 +10,6 @@
 }
 body{
     font-family: Owner;
-    background: #C08EF5;
 }
 .menu{
     width: 100%;
@@ -142,14 +141,15 @@ body{
     background: linear-gradient(#ffd268, #e8a710);
 }
 .img{
-    width: 60%;
+    width: 70%;
 }
 img{
     width: 100%;
 }
 .find{
-    width: 40%;
+    width: 30%;
     height: 100%;
+    background: #C08EF5;
 }
 .containt{
     display: flex;
@@ -173,7 +173,8 @@ img{
     background: linear-gradient(#9d72cc, #7753ba);
 }
 footer{
-    margin-top: 200px;
+    margin-top: 400px;
+    position: relative;
 }
 footer > div{
     margin-top: auto;
@@ -184,9 +185,9 @@ footer > div{
 }
 footer > div h2{
     color:#C08EF5;
-    font-size:20px;
+    font-size:30px;
 }
-div#contactframe{
+div#contactframe {
     width: 100%;
     padding: 10px;
 }
@@ -196,7 +197,7 @@ div#contactframe h2{
 }
 div#contactframe h3{
     color: #FFFFFF;
-    font-size: 10px;
+    font-size: 25px;
     padding: 1%;
 }
 div#contactframe a{
@@ -205,4 +206,10 @@ div#contactframe a{
 }
 div#contactframe a:hover{
     color:#C08EF5;
+}
+.feedback{
+    position: absolute;
+    bottom: 99%;
+    background-color: transparent !important;
+    padding: 0;
 }
