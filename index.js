@@ -41,4 +41,5 @@ function success(){
     annouce.style.display = "block";
     annouce.style.animation = "bounceIn";
     annouce.style.animationDuration = "1s";
+    
 }
