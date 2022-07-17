@@ -7,6 +7,7 @@ function init(){
 function display(){
     document.querySelector(".containt").style.display = "none";
     var input = document.getElementById("inputAddress");
+    document.querySelector("body").style.backgroundColor = "white";
     input.style.display = "block";
     input.style.animation = "backInUp";
     input.style.animationDuration = "2s";
@@ -24,6 +25,6 @@ function confirm(){
         output.style.display = "block";
         output.style.animation = "backInUp";
         output.style.animationDuration = "2s";
-        
+
     }
 }
