@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body onload = "init()">
+    <body>
         <header>
             <div class="menu">
                 <a href="LoCare.html">Lo<span>Care</span></a>
@@ -33,7 +33,7 @@
             </div>
         </header>
         <section >
-            <div id="inputAddress">
+            <div style ="display:none" id="inputAddress">
                 <div class="title">Nhập nơi ở của bạn</div>
                 <div class="inputInfo">
                     <form>
@@ -67,7 +67,7 @@
                     <div onclick = "confirm()" class="btn">Xác nhận</div>
                 </div>
             </div>
-            <div id="outputResult">
+            <div style = "display:none" id="outputResult">
                 <div class="title">Kết quả</div>
                 <div class="results">
                     <div class="result">
@@ -111,7 +111,7 @@
             </div>
         </section>
         <section >
-            <div id="book">
+            <div style = "display:none" id="book">
                 <div class="title">Nhập thông tin cá nhân của bạn</div>
                 <div class="inputInfo">
                     <form>
